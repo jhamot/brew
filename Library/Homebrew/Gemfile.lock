@@ -21,7 +21,7 @@ GEM
     connection_pool (2.2.5)
     did_you_mean (1.6.1)
     diff-lcs (1.5.0)
-    docile (1.4.0)
+    docile (1.4.1)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     ecma-re-validator (0.4.0)
@@ -93,7 +93,7 @@ GEM
       unparser
     rdiscount (2.2.0.2)
     regexp_parser (2.5.0)
-    rexml (3.2.5)
+    rexml (3.4.1)
     ronn (0.7.3)
       hpricot (>= 0.8.2)
       mustache (>= 0.7.0)
@@ -150,14 +150,14 @@ GEM
     ruby-macho (3.0.0)
     ruby-progressbar (1.11.0)
     rubyntlm (0.6.3)
-    simplecov (0.21.2)
+    simplecov (0.22.0)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
-    simplecov-cobertura (2.1.0)
+    simplecov-cobertura (3.0.0)
       rexml
       simplecov (~> 0.19)
-    simplecov-html (0.12.3)
+    simplecov-html (0.13.1)
     simplecov_json_formatter (0.1.4)
     sorbet (0.5.10175)
       sorbet-static (= 0.5.10175)
@@ -233,7 +233,7 @@ DEPENDENCIES
   rubocop-sorbet
   ruby-macho
   simplecov
-  simplecov-cobertura
+  simplecov-cobertura (>= 3.0.0)
   sorbet-runtime
   sorbet-static-and-runtime
   tapioca
